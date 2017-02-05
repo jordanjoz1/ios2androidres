@@ -14,7 +14,7 @@ class TestiOS2AndroidRes(unittest.TestCase):
         self.cwd = os.getcwd()
 
     def test_processFiles(self):
-        converter.processFiles('img/', 'output/', 'ic_')
+        converter.processFiles('./test/img/', 'output/', 'ic_')
         os.chdir(self.cwd)
         self.assertTrue(filecmp.cmp(
             './test/img/android-body@1.5x.png',
