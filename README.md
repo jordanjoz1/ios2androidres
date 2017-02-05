@@ -22,10 +22,10 @@
 
 ios2androidres
 ===========================
+Rename and move iOS image resources so they work for Android.
 
 ![Before and after](art/before_after.png)
 
-Rename and move iOS image resources so they work for Android.
 
 ## Getting started
 

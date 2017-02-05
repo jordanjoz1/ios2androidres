@@ -17,19 +17,19 @@ class TestiOS2AndroidRes(unittest.TestCase):
         converter.processFiles('img/', 'output/', 'ic_')
         os.chdir(self.cwd)
         self.assertTrue(filecmp.cmp(
-            'img/android-body@1.5x.png',
+            './test/img/android-body@1.5x.png',
             'output/drawable-hdpi/ic_android_body.png'))
         self.assertTrue(filecmp.cmp(
-            'img/android-body@2x.png',
+            './test/img/android-body@2x.png',
             'output/drawable-xhdpi/ic_android_body.png'))
         self.assertTrue(filecmp.cmp(
-            'img/android-body@3x.png',
+            './test/img/android-body@3x.png',
             'output/drawable-xxhdpi/ic_android_body.png'))
         self.assertTrue(filecmp.cmp(
-            'img/android-body@4x.png',
+            './test/img/android-body@4x.png',
             'output/drawable-xxxhdpi/ic_android_body.png'))
         self.assertTrue(filecmp.cmp(
-            'img/android-boat.png',
+            './test/img/android-boat.png',
             'output/drawable/ic_android_boat.png'))
 
         shutil.rmtree('output')
