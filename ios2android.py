@@ -81,7 +81,7 @@ def parseArgs(args=None):
                         help='Prefix to the asset file names',
                         default='')
     args = parser.parse_args(args) if args is not None else parser.parse_args()
-    return args.input, args.output
+    return args.input, args.output, args.prefix
 
 
 def createOutputDir(out_path):

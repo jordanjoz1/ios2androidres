@@ -21,11 +21,11 @@ setup(name='ios2androidres',
       author_email='support@jozapps.com',
       url='https://github.com/jordanjoz1/ios2androidres',
       license='MIT',
-      py_modules=['ios2androidres'],
+      py_modules=['ios2andres'],
       namespace_packages=[],
       install_requires = [],
       entry_points={
           'console_scripts': [
-              'i2ares = ios2android:main']
+              'ios2andres = ios2android:main']
       },
       include_package_data = False)
