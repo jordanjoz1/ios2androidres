@@ -2,13 +2,13 @@ import os
 import sys
 from setuptools import setup, find_packages
 
-version = '0.1.0'
+version = '0.1.8'
 
 def read(f):
     return open(os.path.join(os.path.dirname(__file__), f)).read().strip()
 
 
-setup(name='ios2androidres',
+setup(name='ios2andres',
       version=version,
       description=('iOS to Android Resource Renamer'),
       long_description='\n\n'.join((read('README.md'), read('CHANGELOG'))),
@@ -26,6 +26,6 @@ setup(name='ios2androidres',
       install_requires = [],
       entry_points={
           'console_scripts': [
-              'ios2andres = ios2android:main']
+              'ios2andres = ios2andres:main']
       },
       include_package_data = False)

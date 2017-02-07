@@ -1,9 +1,19 @@
 import os
 from shutil import copyfile
-from resource_type import ResourceType
 import argparse
 
 ORIG_DIR = os.getcwd()
+
+class ResourceType(object):
+
+    def __init__(self, dirName, scaleFactor):
+        self.dirName = dirName
+        self.scaleFactor = scaleFactor
+        self.files = []
+
+    def addFile(self, fname):
+        self.files.append(fname)
+
 
 NODPI = ResourceType('drawable', '')
 LDPI = ResourceType('drawable-ldpi', '.75x')

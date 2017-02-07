@@ -2,9 +2,8 @@ import unittest
 import os
 import argparse
 import shutil
-import ios2android as converter
+import ios2andres as converter
 import filecmp
-from resource_type import ResourceType
 
 
 class TestiOS2AndroidRes(unittest.TestCase):

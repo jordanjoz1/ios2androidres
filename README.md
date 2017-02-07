@@ -30,7 +30,7 @@ Rename and move iOS image resources so they work for Android.
 ## Getting started
 
 ```bash
-pip install ios2androidres
+pip install ios2andres
 ```
 
 ## Usage
@@ -65,6 +65,7 @@ Prefix some text, like "ic_" to all files.
 
 
 ## Release History
+* 2017-02-06   v0.1.8   First working pypi build
 * 2017-02-05   v0.1.0   Initial release
 
 ## License
