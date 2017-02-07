@@ -4,11 +4,11 @@
 [coveralls-url]: https://coveralls.io/r/jordanjoz1/ios2androidres
 [coveralls-image]: https://coveralls.io/repos/jordanjoz1/ios2androidres/badge.svg
 
-[pypi-url]: https://badge.fury.io/py/ios2androidres
-[pypi-image]: https://badge.fury.io/py/ios2androidres.svg
+[pypi-url]: https://badge.fury.io/py/ios2andres
+[pypi-image]: https://badge.fury.io/py/ios2andres.svg
 
-[downloads-url]: https://pypi.python.org/pypi/ios2androidres/
-[downloads-image]: https://img.shields.io/pypi/dm/ios2androidres.svg
+[downloads-url]: https://pypi.python.org/pypi/ios2andres/
+[downloads-image]: https://img.shields.io/pypi/dm/ios2andres.svg
 
 [codeclimate-url]: https://codeclimate.com/github/jordanjoz1/ios2androidres
 [codeclimate-image]: https://codeclimate.com/github/jordanjoz1/ios2androidres/badges/gpa.svg
