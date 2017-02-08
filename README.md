@@ -10,6 +10,9 @@
 [downloads-url]: https://pypi.python.org/pypi/ios2andres/
 [downloads-image]: https://img.shields.io/pypi/dm/ios2andres.svg
 
+[arsenal-url]: https://android-arsenal.com/details/1/5234
+[arsenal-image]: https://img.shields.io/badge/Android%20Arsenal-ios2androidres-brightgreen.svg?style=flat
+
 [codeclimate-url]: https://codeclimate.com/github/jordanjoz1/ios2androidres
 [codeclimate-image]: https://codeclimate.com/github/jordanjoz1/ios2androidres/badges/gpa.svg
 
@@ -17,6 +20,7 @@
 [![Coverage Status][coveralls-image]][coveralls-url]
 [![PyPi version][pypi-image]][pypi-url]
 [![PyPi download count image][downloads-image]][downloads-url]
+[![Android Arsenal][arsenal-image]][arsenal-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
 
 
