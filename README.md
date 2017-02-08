@@ -22,9 +22,9 @@
 
 ios2androidres
 ===========================
-Rename and move iOS image resources so they work for Android.
+Ever find yourself stuck with image assets exported for iOS? Rather than write your own script, use this one to rename and move iOS image resources so they work for Android.
 
-![Before and after](art/before_after.png)
+![How to use](art/how_to_use.gif)
 
 
 ## Getting started
